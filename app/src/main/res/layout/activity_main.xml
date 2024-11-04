@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#fff998"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logojogo"
+        android:contentDescription="Logo DeD" />
+
+    <TextView
+        android:id="@+id/txtBemVindo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bem-vindo ao Mundo de DeD!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#8B4513"
+    android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/txtInicioJornada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prepare-se para uma nova aventura!"
+        android:textSize="18sp"
+        android:textColor="#8B4513"
+    android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnIniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="#8B4513"
+        android:padding="10dp"
+        android:text="Iniciar Jogo"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#8B4513" />
+
+    <Button
+        android:id="@+id/btnVerPersonagens"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#8B4513"
+        android:padding="10dp"
+        android:text="Personagens Salvos"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#8B4513" />
+
+</LinearLayout>
